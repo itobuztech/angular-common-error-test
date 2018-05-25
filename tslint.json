@@ -4,6 +4,7 @@
   ],
   "rules": {
     "no-unused-variable": true,
+    "only-arrow-functions": true,
     "arrow-return-shorthand": true,
     "callable-types": true,
     "class-name": true,
@@ -48,6 +49,7 @@
     "no-bitwise": true,
     "no-console": [
       true,
+      "log",
       "debug",
       "info",
       "time",
